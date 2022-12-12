@@ -1,8 +1,25 @@
 import actions from "../actions/actionTypes";
 
 const initialState = {
-    user: {},
-    posts: [],
+    user: {
+        username: "",
+        password: "",
+        phone: "",
+        name: "",
+        followers: [],
+        followings: [],
+        account_type: "",
+        notification: [],
+        post: [],
+        saved: [],
+        tagged: [],
+        pendingRequest: [],
+        bio: "",
+        email: "",
+        gender: "",
+        profileimg: ""
+    },
+    post: [],
     snackInformation: {
         open: false,
         message: "",
